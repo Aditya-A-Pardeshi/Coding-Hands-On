@@ -1,0 +1,36 @@
+'''
+Accept number of rows and number of columns from user and display
+below pattern.
+Input : iRow = 5 iCol = 5
+Output :
+ a b c d e
+ 1 2 3 4 5
+ a b c d e
+ 1 2 3 4 5
+ a b c d e 
+'''
+
+def Display(row,col):
+    if(row<0):
+        row = -row;
+    if(col<0):
+        col = -col;
+        
+    for i in range(0,row): 
+        if(i%2 == 0):
+            ch = 97;
+            for j in range(0,col):
+                print(chr(ch),end = " ");
+                ch = ch+1;
+        else:
+            for j in range(1,col+1):
+                print(j,end = " ");
+        print("");
+
+def main():
+    row = int(input("Enter row value: "));
+    col = int(input("Enter column value: "));
+    Display(row,col);
+    
+if __name__ == "__main__":
+    main();

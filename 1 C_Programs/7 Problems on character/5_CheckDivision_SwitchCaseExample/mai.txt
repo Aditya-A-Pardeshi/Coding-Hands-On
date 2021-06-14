@@ -1,0 +1,25 @@
+#include<stdio.h>
+typedef int BOOL;
+#define TRUE 1
+#define FALSE 0
+
+void  checkDivision (char cDiv)
+{
+    switch(cdiv)
+    {
+	   case 'A':
+	   case 'a':
+	   printf("7 am/n");
+	   break;
+	   
+	   case 'B':
+	   case 'b'
+	   printf("8.30 Am/n");
+	   break;
+	   
+	   case 'C':
+	   case 'c':
+	       printf(" 9.20 am/n")
+		   break;
+		   
+		   

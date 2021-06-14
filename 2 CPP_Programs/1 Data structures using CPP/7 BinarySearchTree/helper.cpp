@@ -1,0 +1,3 @@
+/*
+helper file for binary search tree application
+*/
